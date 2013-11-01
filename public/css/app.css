@@ -1,0 +1,36 @@
+/*
+
+Gray = #B7B7B7
+Green = #7C9A44
+Red = #C05C48
+
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: transparent;
+    padding: 0;
+    color: #EAEAEA;
+    font-size: 14px;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Arial;
+}
+
+body {margin: 15px;}
+
+h1 {font-size: 18px;}
+h2, h3, h4, h5, h6 {font-size: 15px; font-weight: normal;color: #B7B7B7;margin: 6px 0;}
+h2 {font-size: 17px;}
+
+div.console-describe {margin-bottom: 30px;}
+div.console-it { margin-left: 15px; margin-bottom: 15px;}
+
+div.console-passed, div.console-failed, div.console-missed {margin-left: 15px; margin-bottom: 5px; font-weight: bold;}
+div.console-passed {color: #7C9A44;}
+div.console-failed {color: #C05C48;}
+div.console-missed {color: #B7B7B7;}
+
