@@ -7,3 +7,5 @@ passed back to the main site after each code submission, where they are then pas
 
 ### Contributions
 This code has been made public so that Codewars users may contribute to the site's ability to display kata output.
+
+

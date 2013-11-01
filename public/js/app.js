@@ -5,10 +5,8 @@ window.print = $.noop
 window.open = $.noop
 
 window.addEventListener('message', function(e, b){
-    $('body').html(JSON.stringify(e))
-
-//    $('body').html(e.data);
-//    if (e.origin == 'null'){
-//    }
+    if (e.origin.indexOf('codewars.com') > 0){
+        $('body').html(e.data)
+    }
 });
 
