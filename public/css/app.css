@@ -20,7 +20,7 @@ html, body {
     font-family: "Lato", "Helvetica Neue", "Helvetica", Arial;
 }
 
-body {padding: 15px;}
+body {padding: 5px;}
 
 h1 {font-size: 18px;}
 h2, h3, h4, h5, h6 {font-size: 15px; font-weight: normal;color: #B7B7B7;margin: 6px 0;}
@@ -37,4 +37,6 @@ div.console-missed {color: #B7B7B7;}
 div.console-describe div.console-passed,
 div.console-describe div.console-failed,
 div.console-describe div.console-missed {margin-left: 15px; }
+
+div.alert-box {padding: 6px 7px 7px; background-color: #C05C48;color: #fff;text-shadow: 0 -1px rgba(0, 0, 0, 0.3);line-height: 18px;font-size: 15px;}
 
