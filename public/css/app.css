@@ -29,7 +29,7 @@ h2 {font-size: 17px;}
 div.console-describe {margin-bottom: 30px;}
 div.console-it { margin-left: 15px; margin-bottom: 15px;}
 
-div.console-passed, div.console-failed, div.console-missed {margin-bottom: 5px; font-weight: bold;}
+div.console-passed, div.console-failed, div.console-missed {margin-bottom: 5px; font-weight: bold; white-space: pre;}
 div.console-passed {color: #7C9A44;}
 div.console-failed {color: #C05C48;}
 div.console-missed {color: #B7B7B7;}
@@ -37,6 +37,8 @@ div.console-missed {color: #B7B7B7;}
 div.console-describe div.console-passed,
 div.console-describe div.console-failed,
 div.console-describe div.console-missed {margin-left: 15px; }
+
+div.console-info {background-color: rgba(255,255,255,0.1); padding: 5px;}
 
 div.alert-box {padding: 6px 7px 7px; background-color: #C05C48;color: #fff;text-shadow: 0 -1px rgba(0, 0, 0, 0.3);line-height: 18px;font-size: 15px;}
 
