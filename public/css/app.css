@@ -40,6 +40,8 @@ div.console-failed {color: #C05C48;}
 div.console-missed {color: #B7B7B7;}
 .inverted-theme div.console-missed { color: #444; }
 
+div.console-completedin { color: #999; font-size: 12px; }
+
 div.console-describe div.console-passed,
 div.console-describe div.console-failed,
 div.console-describe div.console-missed {margin-left: 15px; }
